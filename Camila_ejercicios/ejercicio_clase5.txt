@@ -1,0 +1,5 @@
+numero = int(input("Ingresa un numero para tu tabla, Amikito"))
+
+print(f"\nTabla del {numero}")
+for i in range(1, 11):
+    print(f"{numero} x {i} = {numero * i}")
